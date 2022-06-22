@@ -1,3 +1,3 @@
 import sayMyName from "./lib";
 
-sayMyName("Heisenberg");
+sayMyName("Eli");
