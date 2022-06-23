@@ -1,11 +1,9 @@
-const AllowedNames = ["Heisenberg", "Walter"]
-
-function sayMyName(name: string): void {
-  if (AllowedNames.includes(name)) {
-    return "You're right 👍";
+function isValidUser(name: string): boolean {
+  if (name === "Eli") {
+    return true;
   } else {
-    return "You're wrong 👎";
+    return false;
   }
 }
 
-export default sayMyName;
+export default isValidUser;
