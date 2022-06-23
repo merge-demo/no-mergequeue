@@ -7,4 +7,10 @@ describe("lib", function () {
       expect(isValidUser("Eli")).to.eq(true);
     });
   });
+
+  describe("#isValidUser()", function () {
+    it("should return false for invalid users", function () {
+      expect(isValidUser("David")).to.eq(false);
+    });
+  });
 });
