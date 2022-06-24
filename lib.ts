@@ -1,9 +1,11 @@
-function sayMyName(name: string): void {
-  if (name === "David") {
-    return "You're right 👍";
+const AuthorizedUsers = ["Eli", "David"];
+
+function isValidUser(name: string): boolean {
+  if (AuthorizedUsers.includes(name)) {
+    return true;
   } else {
-    return "You're wrong 👎";
+    return false;
   }
 }
 
-export default sayMyName;
+export default isValidUser;
