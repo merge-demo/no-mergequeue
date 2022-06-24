@@ -1,5 +1,5 @@
 function sayMyName(name: string): void {
-  if (name === "Heisenberg") {
+  if (name === "David") {
     return "You're right 👍";
   } else {
     return "You're wrong 👎";
