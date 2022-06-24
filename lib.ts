@@ -1,4 +1,4 @@
-const AuthorizedUsers = ["Eli", "David"];
+const AuthorizedUsers = ["Eli"];
 
 function isValidUser(name: string): boolean {
   if (AuthorizedUsers.includes(name)) {
