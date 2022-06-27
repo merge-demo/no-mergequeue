@@ -3,6 +3,7 @@ cli:
   version: 0.13.2-beta.1
 lint:
   enabled:
-    - actionlint@1.6.13
-    - gitleaks@8.8.8
+    - markdownlint@0.31.1
+    - actionlint@1.6.14
+    - gitleaks@8.8.9
     - prettier@2.7.1
